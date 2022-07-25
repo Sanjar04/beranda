@@ -1,0 +1,101 @@
+.hero__inner {
+   padding-top: 98px;
+
+   &__copy {
+      text-align: center;
+      font-family: 'Gentium Book Basic';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      color: #008F76;
+
+      &__span {
+         color: #212121;
+      }
+   }
+
+   &__title {
+      text-align: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 200%;
+      color: #212121;
+
+      &__span {
+         color: #008F76;
+      }
+   }
+
+   &__card {
+      text-align: center;
+   }
+
+
+   &__btn {
+      padding: 10px 24px;
+      align-items: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+      text-align: center;
+      color: #FFFFFF;
+      background: #008F76;
+      box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+      border-radius: 20px;
+      border: none;
+
+      &__imge {
+         margin-left: 12px 24px;
+      }
+   }
+
+   &__twobtn {
+      padding: 10px 24px;
+      background: white;
+      border-radius: 24px;
+      border: 1px solid #008F76;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+      text-align: center;
+      color: #008F76;
+      margin-left: 72px;
+   }
+
+   &__item{
+      display: flex;
+      list-style-type: none;
+      margin-top: 19px;
+
+      &__list:nth-child(1){
+         margin-left: 0;
+      }
+
+      &__list {
+         margin-left: 80px;
+
+         &__imge{
+            margin-top: 121px;
+         }
+
+         &__oneimge{
+            margin-top: 100px;
+         }
+
+         &__twoimge{
+            margin-top: 89px;
+         }
+      }
+
+      
+   }
+
+   
+}

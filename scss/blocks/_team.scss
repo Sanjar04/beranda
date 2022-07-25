@@ -1,0 +1,84 @@
+.team__inner {
+   padding-top: 210px;
+
+   &__title {
+      text-align: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 200%;
+      color: #212121;
+
+      &__span {
+         color: #008F76;
+      }
+   }
+
+
+   &__card {
+      display: flex;
+      padding-top: 48px;
+      justify-content: center;
+
+
+      &__text {
+         width: 596px;
+         height: 228px;
+         margin-bottom: 100px;
+         margin-left: 39px;
+         padding-top: 30px;
+         padding-left: 30px;
+         box-shadow: 0px 10px 10px rgb(187, 184, 184)
+      }
+
+   }
+
+   &__copy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      color: #ACACAC;
+   }
+
+   &__text:nth-child(1) {
+      margin-left: 0;
+   }
+
+   &__card__text__copy__span {
+      color: #212121;
+   }
+
+   &__card__twotext {
+      display: flex;
+      margin-left: 84px;
+      margin-top: 24px;
+   }
+
+   &__card__subtext {
+      padding-left: 16px;
+   }
+
+   &__inner__twotext__copy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+      color: #212121;
+   }
+
+   &__card__twotext__twocopy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      color: #949494;
+      margin-top: 1px;
+   }
+   
+
+}

@@ -1,0 +1,102 @@
+.watcher__inner {
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+   &__card {
+      display: flex;
+   }
+
+   &__card__div__text {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      color: #949494;
+   }
+
+   &__card__div__copy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 200%;
+      color: #212121;
+   }
+
+   &__card__subcopy {
+      margin-left: auto;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      text-align: right;
+      color: #949494;
+   }
+
+   &__mold {
+      display: flex;
+      margin-top: 25px;
+   }
+
+   &__mold__inside {
+      width: 596px;
+      height: 280px;
+      background: #FFFFFF;
+      border: 1px solid #D9D9D9;
+      border-radius: 5px;
+      padding: 30px 30px;
+   }
+
+   &__mold__inside__copy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      color: #212121;
+   }
+
+   &__mold__inside:nth-child(2) {
+      width: 596px;
+      height: 280px;
+      background: #FFFFFF;
+      border: 1px solid #D9D9D9;
+      border-radius: 5px;
+      box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+      margin-left: auto;
+   }
+
+   &__mold__inside__inter {
+      display: flex;
+      margin-top: 48px;
+   }
+
+   &__mold__inside__inter__text {
+      margin-left: 16px;
+   }
+
+   &__mold__inside__inter__text__copy {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 200%;
+      color: #212121;
+   }
+
+   &__mold__inside__inter__text__copy:nth-child(2) {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 200%;
+      color: #949494;
+   }
+
+   &__imge {
+      margin-left: 672px;
+      margin-top: 72px;
+   }
+}

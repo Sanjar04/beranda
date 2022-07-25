@@ -1,0 +1,48 @@
+.footers__inner {
+   display: flex;
+   padding-top: 100px;
+   padding-bottom: 40px;
+
+   &__card__next {
+      margin-top: 48px;
+
+      &__link {
+         text-decoration: none;
+         margin-left: 44px;
+      }
+
+      &__link:nth-child(1) {
+         margin-left: 0;
+      }
+   }
+
+   &__item {
+      display: flex;
+      list-style-type: none;
+      margin-left: auto;
+      margin-top: 10px;
+
+      &__list {
+         margin-left: 180px;
+
+         &__copy {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 200%;
+            color: #212121;
+         }
+
+         &__link {
+            text-decoration: none;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 200%;
+            color: #949494;
+         }
+      }
+   }
+}
